@@ -1,11 +1,14 @@
 {
   "name": "sinkhole",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sink your archives into AWS Glacier",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib/",
     "prepublish": "npm run build"
+  },
+  "bin": {
+    "sinkhole": "./lib/index.js"
   },
   "keywords": [
     "glcier",
