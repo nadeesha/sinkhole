@@ -19,7 +19,7 @@ export default function () {
       checksum,
     });
 
-    glacier.uploadArchive(params, (err, data) => {
+    glacier().uploadArchive(params, (err, data) => {
       if (err) {
         return reject(err);
       }

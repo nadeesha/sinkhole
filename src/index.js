@@ -9,6 +9,7 @@ import sessionizeOptions from './sessionizeOptions.js';
 import storeInGlacier from './storeInGlacier.js';
 import printUsage from './printUsage.js';
 
+
 const cmd = optimist.argv._[0];
 const args = optimist.argv._;
 

@@ -5,7 +5,7 @@ export default function () {
   return new Promise((resolve, reject) => {
     const params = defaultGlacierParams;
 
-    glacier.createVault(params, (err, data) => {
+    glacier().createVault(params, (err, data) => {
       if (err) {
         return reject(err);
       }
