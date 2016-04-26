@@ -1,4 +1,4 @@
-import session from './lib/session.js';
+import session from './session.js';
 import trash from 'trash';
 
 export default function () {

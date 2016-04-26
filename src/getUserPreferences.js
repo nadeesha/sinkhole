@@ -1,5 +1,5 @@
 import prompt from 'prompt';
-import session from './lib/session.js';
+import session from './session.js';
 
 export default function () {
   return new Promise((resolve, reject) => {

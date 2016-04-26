@@ -1,9 +1,9 @@
 import _ from 'lodash';
-import defaultGlacierParams from './lib/defaultGlacierParams.js';
+import defaultGlacierParams from './defaultGlacierParams.js';
 import fs from 'fs';
-import glacier from './lib/glacier.js';
+import glacier from './glacier.js';
 import path from 'path';
-import session from './lib/session.js';
+import session from './session.js';
 import treehash from 'treehash';
 
 export default function () {

@@ -1,5 +1,5 @@
 import fs from 'fs';
-import getConfigPath from './lib/getConfigPath.js';
+import getConfigPath from './getConfigPath.js';
 import path from 'path';
 import prompt from 'prompt';
 

@@ -1,10 +1,11 @@
 {
   "name": "sinkhole",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sink your archives into AWS Glacier",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir lib/",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "glcier",
@@ -16,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.3.5",
-    "invariant": "^2.2.1",
+    "cli-usage": "^0.1.2",
     "lodash": "^4.11.1",
     "optimist": "^0.6.1",
     "prompt": "^1.0.0",

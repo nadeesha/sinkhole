@@ -1,5 +1,5 @@
-import defaultGlacierParams from './lib/defaultGlacierParams.js';
-import glacier from './lib/glacier.js';
+import defaultGlacierParams from './defaultGlacierParams.js';
+import glacier from './glacier.js';
 
 export default function () {
   return new Promise((resolve, reject) => {

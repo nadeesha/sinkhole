@@ -1,0 +1,7 @@
+Usage: sinkhole <command>
+
+where <command> is one of:
+    init, upload
+
+sinkhole init            inital configuration of sinkhole
+sinkhole upload <file>   upload <file> to glacier

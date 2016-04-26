@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import session from './lib/session.js';
+import session from './session.js';
 
 export default function (options) {
   return new Promise((resolve) => {
