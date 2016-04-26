@@ -11,7 +11,7 @@ export default function () {
       }
 
       try {
-        fs.mkdirSync(path.join(getConfigPath(), '.sinkhole'));
+        fs.mkdirSync(path.join(process.env.HOME || process.env.USERPROFILE, '.sinkhole'));
       } catch (e) {
         if (e.code === 'EEXIST') {
           console.info('Detected an already existing ~/.sinkhole');
