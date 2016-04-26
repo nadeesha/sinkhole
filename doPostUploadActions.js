@@ -5,7 +5,7 @@ export default function () {
   return new Promise((resolve, reject) => {
     const filepath = session.get('filepath');
 
-    if (session.get('deleteAfter') === 'y') {
+    if (session.get('deleteAfter').toLowerCase().trim() === 'y') {
       return trash([filepath])
         .then(resolve)
         .catch(reject);
