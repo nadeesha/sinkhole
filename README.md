@@ -42,5 +42,5 @@ will ask you a couple of questions. If you just select the default values, it wi
 # Todo
 
 - [ ] Support multiple files
-
 - [ ] Support zipping folders
+- [ ] Progress bar for uploading files
