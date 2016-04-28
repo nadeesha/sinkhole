@@ -17,6 +17,12 @@ Enter sinkhole.
 
 Sinkhole needs an AWS key/secret with Glacier access. After you create a IAM user with this permission, simply 
 
+## Install through npm
+
+```sh
+npm install sinkhole -g
+```
+
 ## One time configuration
 
 ```sh
