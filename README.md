@@ -34,7 +34,7 @@ sinkhole init
 When you want to send something to Glacier,
 
 ```sh
-sinkhole upload
+sinkhole upload <file>
 ```
 
 will ask you a couple of questions. If you just select the default values, it will upload the file, insert the file path as the archive description in Glacier, and move the file to trash.
