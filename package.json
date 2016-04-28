@@ -1,6 +1,6 @@
 {
   "name": "sinkhole",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Sink your archives into AWS Glacier",
   "main": "./lib/index.js",
   "scripts": {
