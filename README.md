@@ -13,9 +13,11 @@ Enter sinkhole.
 
 # How to use
 
-## One time configuration
+## Prerequisites
 
 Sinkhole needs an AWS key/secret with Glacier access. After you create a IAM user with this permission, simply 
+
+## One time configuration
 
 ```sh
 sinkhole init

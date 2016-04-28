@@ -5,7 +5,11 @@ import prompt from 'prompt';
 
 export default function () {
   return new Promise((resolve, reject) => {
-    prompt.get(['key', 'secret', 'region'], (err, configs) => {
+    prompt.get(['key', 'secret', {
+      name: 'region',
+      description: 'region',
+      default: 'us-east-1',
+    }], (err, configs) => {
       if (err) {
         return reject(err);
       }
