@@ -2,6 +2,8 @@
 
 A sinkhole for your archives on AWS Glacier.
 
+![](https://dl.dropboxusercontent.com/u/3240167/sinkhole-demo.gif)
+
 
 # Why?
 
